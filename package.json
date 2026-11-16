@@ -1,0 +1,30 @@
+{
+  "name": "zenith-auth",
+  "version": "1.0.0",
+  "description": "Zenith Auth - Complete Authentication & License Management Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --experimental-sqlite server.js",
+    "dev": "node --experimental-sqlite server.js",
+    "test": "node --experimental-sqlite server.js --test"
+  },
+  "keywords": [
+    "auth",
+    "license-manager",
+    "saas",
+    "hwid",
+    "token",
+    "security",
+    "zenith"
+  ],
+  "author": "Zenith Auth Team",
+  "license": "Commercial",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.28.1",
+    "nodemailer": "^10.5.0",
+    "pg": "^8.23.1"
+  }
+}
